@@ -7,7 +7,7 @@ describe('HelloService', () => {
     service = new HelloService();
   });
 
-  it('#getHelloWorld should return Hello World message', () => {
+  it('#getHelloWorld should return HelloWorld message', () => {
     expect(service.getHelloWorld()).toBe('Hello world Aissam !');
   });
 });
