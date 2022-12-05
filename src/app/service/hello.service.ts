@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class HelloService {
-
-  constructor() { }
+  public getHelloWorld() {
+    return 'Hello world !';
+  }
 }
