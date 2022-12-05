@@ -7,7 +7,6 @@ import { HelloService } from './service/hello.service';
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule],
-  // Inject the Service Under Test
   providers: [HelloService],
   bootstrap: [AppComponent],
 })
